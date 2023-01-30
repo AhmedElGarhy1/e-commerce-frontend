@@ -1,8 +1,9 @@
 import axios from "axios";
 
-// const baseUrl = process.env.API_RUL || "https://aroma-store.herokuapp.com";
+const baseUrl =
+  process.env.API_RUL || "https://e-commerce-backend-pv8d.onrender.com/";
 
-const baseUrl = "http://localhost:8000";
+// const baseUrl = "http://localhost:8000";
 const backendReq = async (url, method, obj, token) => {
   const options = {
     method,
