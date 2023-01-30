@@ -1,0 +1,86 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.lg_AccountDetails {
+  width: 90%;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+.para_AccountDetails {
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 1px #818181a8 solid;
+}
+.emailMember {
+  margin-top: 20px;
+  display: flex;
+}
+.emailMember div {
+  height: fit-content;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: -5px;
+}
+.emailMember div h5 {
+  margin: auto;
+}
+.lg_AccountDetails .form {
+  margin-top: 10px;
+}
+.lg_AccountDetails .form .FormName {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  width: 100%;
+}
+
+.lg_AccountDetails .form .FormName label {
+  display: block;
+}
+.lg_AccountDetails .form .FormName input {
+  margin-top: 10px;
+  outline: none;
+  border: 1px #818181a8 solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.lg_AccountDetails .form .FormPhone {
+  margin-top: 15px;
+  border-bottom: 1px #818181a8 solid;
+  width: 100%;
+  padding-bottom: 15px;
+}
+.lg_AccountDetails .form .FormPhone label {
+  display: block;
+}
+.lg_AccountDetails .form .FormPhone input {
+  margin-top: 10px;
+  outline: none;
+  border: 1px #818181a8 solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.lg_AccountDetails .form .FormSave {
+  width: 100%;
+  margin-top: 20px;
+}
+.lg_AccountDetails .form .FormSave input {
+  width: 130px;
+  padding: 5px;
+  outline: none;
+  background-color: #ec8e1b;
+  color: white;
+  border: none;
+}
+@media (max-width: 700px) {
+}
+.disabled {
+  opacity: 0.3;
+  cursor: unset;
+}

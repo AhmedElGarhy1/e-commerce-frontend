@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.lg_NoAddresses{
+    width: 90%;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+.para1_NoAddresses{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 96%;
+    padding-bottom: 5px;
+    border-bottom: 1px #818181a8 solid;
+}
+.para1_NoAddresses button{
+   width: 100px;
+   position: absolute;
+   right: 3%;
+   z-index: 1;
+}
+.para2_NoAddresses{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+}
+@media(max-width:767px){
+    .para1_NoAddresses button{
+        width: 100px;
+        position: absolute;
+        right: 16%;
+     }
+}

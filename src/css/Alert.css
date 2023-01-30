@@ -1,0 +1,31 @@
+.message {
+  background-color: #eac45c;
+  position: absolute;
+  right: -100%;
+  top: 0;
+  width: fit-content;
+  padding: 15px 30px;
+  text-align: center;
+  animation: msgAnimation 4s forwards;
+  z-index: 10000;
+  border-bottom: 3px solid #145f2c;
+  font-size: 16px;
+  font-weight: 400;
+}
+@keyframes msgAnimation {
+  0% {
+    right: -100%;
+  }
+  35% {
+    right: 0%;
+  }
+  65% {
+    right: 0%;
+  }
+  85% {
+    right: -100%;
+  }
+  100% {
+    right: -100%;
+  }
+}

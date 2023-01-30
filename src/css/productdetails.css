@@ -1,0 +1,126 @@
+.productdetails {
+  position: relative;
+  height: calc(100vh - 74px);
+}
+.productdetails .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productdetails .box {
+  height: 100%;
+  margin-top: 10px;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productdetails .box > div {
+  width: calc(100% / 2);
+  height: 100%;
+}
+
+.productdetails .box .image-details .image {
+  width: 100%;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+.productdetails .box .image-details .image img {
+  width: 55%;
+  object-fit: cover;
+}
+span.cate {
+  font-size: 1.25rem;
+  color: #555555;
+}
+
+span.main-cate {
+  color: #9a9a9a;
+  text-align: right;
+}
+.productdetails .box .image-details .details .about {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #555555;
+}
+.productdetails .box .image-details .details .items {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1rem;
+}
+
+.productdetails .box .image-details .details .items {
+  max-width: 80%;
+  list-style-type: none;
+}
+
+.productdetails .box .image-details .details .item {
+  margin-top: 10px;
+  word-wrap: break-word;
+  position: relative;
+  font-style: normal;
+  line-height: 1.2;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #9a9a9a;
+}
+.productdetails .box .image-details .details .item::after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  top: 50%;
+  left: -1.25rem;
+  transform: translateY(-50%);
+  background-color: black;
+  border-radius: 50%;
+}
+.productdetails .box .properties .product-name {
+  color: #555555;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.productdetails .box .properties .category-list {
+  display: flex;
+  color: #9a9a9a;
+  align-items: center;
+  font-size: 1.25rem;
+}
+.productdetails .box .properties .price-buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productdetails .box .properties .price {
+  color: #555555;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.productdetails .box .properties .buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productdetails .box .properties .buy .buy-button {
+  background: #ec8e1b;
+  border: none;
+  padding: 0.8rem;
+}
+.dropdown button {
+  background-color: #9a9a9a;
+  border: none;
+  padding: 10px 15px;
+}
+
+.productdetails .box .properties hr {
+  background-color: #555555;
+}

@@ -1,0 +1,116 @@
+.parentFilter{
+    background-color: #81818116;
+    border: 1px #818181a8 solid;
+    padding-bottom: 0px;
+    width: 260px;
+   
+    position: fixed;
+    top: 75px;
+    left: 10px;
+      
+}
+.barFilterLayout{
+    font-size: 35px;
+    margin-top: -55px;
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    
+}
+
+/*Rating*/
+.searchPro{
+
+    margin:-30px auto !important;
+}
+.PrivateValueLabel-open-4{
+display: none !important;
+}
+.MuiSlider-track{
+    height: 4px !important;
+}
+.MuiSlider-thumb .Mui-focusVisible, .MuiSlider-thumb:hover{
+    box-shadow: none !important;
+}
+.MuiSlider-markLabelActive{
+    color: black !important;
+    font-size: 0.880rem;
+    font-weight: 600 !important;
+}
+
+.parentRate .topPartRate{
+ 
+    width: 100%;
+    padding: 9px 15px;
+}
+.parentRate .bottomPartRate{
+    padding: 0px 16px;
+}
+/*********************************************************************End Rating****************************************************************/
+
+/*********************************************************************Price****************************************************************/
+.PriceCheckbox{
+  margin-top: 10px;
+  width: 100%;
+ 
+}
+#AccountCheckAddress{
+    cursor: pointer;
+}
+.priceFilter{
+   
+   padding: 5px 20px;
+   box-sizing: border-box;
+     
+}
+.priceFilter .PriceCheckbox .text{
+    width: 100%;
+}
+.priceFilter .PriceCheckbox .text::placeholder{
+    padding: 5px;
+}
+.CategoriesWord,.PriceWord{
+    width: 70%;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 10px;
+   
+}
+
+@media(max-width:767px){
+   .rightPartSearch{
+       display: none;
+ 
+    }
+    .FilterPageLayout{
+    display: block;
+    background-color: white;
+    width: 100% !important;
+   
+    padding: 90px 10px 10px 10px; 
+    height:100vh;
+    
+    position: fixed;
+    top: 12px;
+    left: 0%;
+    z-index: 3;
+
+}
+     .leftPartSearch{
+     width: 100% !important;
+    }
+    .parentFilter{
+         box-shadow: -10px -1px 20px 20px #babdbf;
+          padding-bottom: 10px;
+         
+        width: 96%;
+   
+    position: fixed;
+    top: 100px;
+    left: none;
+    }
+    .closeFilterLayout{
+        z-index: 12;
+       margin: 5px 10px;
+       cursor: pointer;
+    }
+}

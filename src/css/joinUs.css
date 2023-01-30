@@ -1,0 +1,164 @@
+/*****************************************platform-start******************************************************/
+.main-div-platform {
+  width: 100%;
+  height: 530px;
+  margin-left: 0%;
+  background-image: url("../images/cart.png");
+  background-position: center;
+  background-size: 100% 584px;
+  background-repeat: no-repeat;
+}
+.main-div-platform .small-div-platform {
+  width: 50%;
+  padding: 70px 10px 40px 70px;
+  color: white;
+}
+.main-div-platform .small-div-platform h1 {
+  width: 70%;
+}
+.main-div-platform .small-div-platform p {
+  margin-top: 20px;
+}
+.main-div-platform .small-div-platform div {
+  margin-top: 40px;
+  margin-left: 0px;
+  width: 100%;
+  display: flex;
+}
+.main-div-platform .small-div-platform div Button {
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+.main-div-platform .small-div-platform div .Reg {
+  background-color: white;
+  color: black;
+  border: 0px;
+  margin-left: 20px;
+}
+@media (max-width: 1030px) {
+  .main-div-platform {
+    margin-top: -10px;
+  }
+  .main-div-platform .small-div-platform h1 {
+    width: 65%;
+  }
+  .main-div-platform .small-div-platform div Button {
+    padding: 10px 50px;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .main-div-platform {
+    margin-top: 30px;
+  }
+  .main-div-platform .small-div-platform div Button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .main-div-platform .small-div-platform h1 {
+    width: 85%;
+  }
+}
+@media (max-width: 700px) {
+  .main-div-platform {
+    height: 450px;
+    background-size: 100% 450px;
+    margin-top: 30px;
+    position: relative;
+  }
+  .main-div-platform .small-div-platform {
+    width: 90%;
+    padding: 10px 10px 10px 15px;
+  }
+  .main-div-platform .small-div-platform h1 {
+    width: 50%;
+  }
+  .main-div-platform .small-div-platform p {
+    margin-top: 20px;
+    width: 50%;
+  }
+  .main-div-platform .small-div-platform div {
+    margin-top: 20px;
+  }
+  .main-div-platform .small-div-platform div Button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .main-div-platform .small-div-platform div .Reg {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .main-div-platform {
+    height: 400px;
+    background-image: none;
+    background-color: rgb(240, 204, 24);
+    background-size: 100% 550px;
+    margin-top: -10px;
+    position: relative;
+  }
+  .main-div-platform .small-div-platform {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 10%;
+    text-align: center;
+  }
+  .main-div-platform .small-div-platform h1 {
+    width: 100%;
+    font-family: "Pacifico", cursive;
+  }
+  .main-div-platform .small-div-platform p {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  .main-div-platform .small-div-platform div {
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 26%;
+  }
+  .main-div-platform .small-div-platform div Button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .main-div-platform .small-div-platform div .Reg {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 459px) {
+  .main-div-platform {
+    background-image: none;
+    background-color: rgb(240, 204, 24);
+    height: 400px;
+    background-size: 100% 550px;
+    margin-top: -3px;
+    position: relative;
+  }
+  .main-div-platform .small-div-platform div {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 362px) {
+  .main-div-platform {
+    height: 460px;
+    margin-top: 30px;
+  }
+  .main-div-platform .small-div-platform div {
+    margin-left: 7%;
+  }
+}
+@media (max-width: 280px) {
+  .main-div-platform {
+    height: 550px;
+    background-size: 100% 600px;
+    margin-top: 7px;
+  }
+  .main-div-platform .small-div-platform div {
+    margin-left: -11%;
+  }
+}

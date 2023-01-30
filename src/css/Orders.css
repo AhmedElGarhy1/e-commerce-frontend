@@ -1,0 +1,30 @@
+.navOreders{
+    width: 90%;
+}
+.navOreders .Orderspara{
+    margin-top: 20px;
+    font-size: 21px;
+    text-align: center;
+}
+.allOrders .row{
+   gap: 10px;
+   height: 170px;
+   margin-top: 10px;
+   padding: 5px 30px;
+   border: 1px #8181815d solid;
+}
+.allOrders img{
+    width: 200px;
+}
+.allOrders p{
+    font-size: 21px;
+    width: 65%;
+    margin-top: 20px;
+}
+.para_AccountOrders{
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px #818181a8 solid;
+}
+
+

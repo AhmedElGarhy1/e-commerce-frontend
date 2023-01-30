@@ -1,0 +1,43 @@
+.TopSide-SeeAll {
+  position: relative;
+  width: 80%;
+
+  margin: 50px auto 20px;
+}
+.TopSide-SeeAll h2 {
+  font-family: "Crete Round", serif;
+  font-weight: 550;
+  font-style: italic;
+}
+.TopSide-SeeAll button {
+  position: absolute;
+  right: 0px;
+  padding: 5px 20px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #000;
+  font-size: 20px;
+}
+.TopSide-SeeAll button i {
+  margin-left: 8px;
+}
+.ParentSwiperPro {
+  width: 83%;
+  margin: 0px auto;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+.SwiperPro {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.SwiperItems {
+  text-align: start;
+  font-size: 18px;
+  margin-right: 0% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

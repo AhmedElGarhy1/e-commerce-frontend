@@ -1,0 +1,13 @@
+.navSupport{
+    width: 90%;
+}
+.navSupport .supportpara{
+    margin-top: 20px;
+    font-size: 21px;
+    text-align: center;
+}
+.para_Accountsupport{
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px #818181a8 solid;
+}

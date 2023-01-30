@@ -1,0 +1,129 @@
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 100% !important;
+  height: 180px;
+  margin: 0 auto;
+}
+.card {
+  box-shadow: none;
+  transition: box-shadow 0.3s ease-in-out;
+  height: 400px !important;
+  width: 250px;
+  margin: 3px auto;
+}
+.card:hover {
+  box-shadow: 4px 4px 10px -8px black;
+}
+.card-body {
+  background: white;
+}
+.rowPro {
+  width: fit-content !important;
+  justify-content: center;
+}
+.rowPro > * {
+  max-width: 270px !important;
+}
+div.card-title {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Eczar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 28px;
+  margin-bottom: 0;
+  margin-top: 15%;
+  color: #555555;
+}
+.card-text .start {
+  display: flex;
+  margin-top: 25px;
+}
+.card-text .start i {
+  color: #ec8e1b;
+}
+.card-text .start .numberOfStars {
+  color: #ec8e1b;
+  margin-top: -3px;
+  margin-left: 5px;
+}
+.card-text .start .numberOfSales {
+  color: #9a9a9a;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.card-text .start img {
+  margin-right: 5px;
+}
+.card-text .card-footer img {
+  padding: 0.25rem 1.25rem;
+  background: #ec8e1b;
+  border-radius: 10px;
+  position: absolute;
+  right: 30px;
+}
+.card h2 {
+  font-size: 24px;
+}
+.card h3 {
+  font-size: 15px;
+  margin-top: 4px;
+  margin-left: 3px;
+}
+.card-footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background-color: transparent !important;
+  position: absolute;
+  bottom: 10px;
+}
+.card-text .discount {
+  font-family: "Eczar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #9a9a9a;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-decoration: line-through;
+}
+@media (max-width: 1115px) {
+  .card-text .start .numberOfVistors {
+    font-size: 9px;
+  }
+  .rowPro {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .card-text .start .numberOfVistors {
+    font-size: 12px;
+  }
+  .card-footer {
+    width: 100%;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+  }
+  .start i {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .card-footer {
+    grid-template-columns: 1.4fr 1fr;
+  }
+  .card h2 {
+    font-size: 23px;
+  }
+}

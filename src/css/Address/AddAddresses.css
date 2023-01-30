@@ -1,0 +1,101 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.lg-AddAddresses {
+  width: 90%;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+.para1_AddAddresses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 1px #818181a8 solid;
+}
+.para1_AddAddresses button {
+  width: 100px;
+  position: absolute;
+  right: 8%;
+}
+.lg-AddAddresses .FormAddAddresses .FormAddresses,
+.lg-AddAddresses .FormAddAddresses .FormCity {
+  margin-top: 10px;
+  width: 100%;
+  padding-bottom: 15px;
+}
+.lg-AddAddresses .FormAddAddresses .FormCity {
+  margin-top: 0px;
+}
+.lg-AddAddresses .FormAddAddresses .FormAddresses label,
+.lg-AddAddresses .FormAddAddresses .FormCity label,
+.lg-AddAddresses .FormAddAddresses .FormZipCode label {
+  display: block;
+}
+.lg-AddAddresses .FormAddAddresses .FormAddresses input,
+.lg-AddAddresses .FormAddAddresses .FormCity input,
+.lg-AddAddresses .FormAddAddresses .FormZipCode input {
+  margin-top: 10px;
+  outline: none;
+  border: 1px #818181a8 solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.lg-AddAddresses .FormAddAddresses .FormAddresses input::placeholder,
+.lg-AddAddresses .FormAddAddresses .FormCity input::placeholder,
+.lg-AddAddresses .FormAddAddresses .FormZipCode input::placeholder {
+  font-size: 13px;
+  padding: 5px;
+}
+.lg-AddAddresses .FormAddAddresses .FormState-Country {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  width: 100%;
+}
+
+.lg-AddAddresses .FormAddAddresses .FormState-Country label {
+  display: block;
+}
+.lg-AddAddresses .FormAddAddresses .FormState-Country input {
+  margin-top: 10px;
+  outline: none;
+  border: 1px #818181a8 solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.lg-AddAddresses .FormAddAddresses .FormZipCode {
+  margin-top: 10px;
+  width: 47%;
+}
+
+/*check box*/
+.Formcheckbox {
+  margin-top: 10px;
+  padding-bottom: 15px;
+  width: 100%;
+  border-bottom: 1px #818181a8 solid;
+}
+
+.lg-AddAddresses .FormAddAddresses .FormSave {
+  width: 100%;
+  margin-top: 18px;
+}
+.lg-AddAddresses .FormAddAddresses .FormSave input {
+  width: 130px;
+  padding: 5px;
+  outline: none;
+  background-color: #ec8e1b;
+  color: white;
+  border: none;
+}
+@media(max-width:767px){
+  .para1_AddAddresses button{
+    
+      right: 22%;
+      z-index: 1;
+   }
+}

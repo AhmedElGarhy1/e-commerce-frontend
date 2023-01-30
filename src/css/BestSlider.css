@@ -1,0 +1,108 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+/*****************************************BestSlider-start******************************************************/
+.home .mySwiper1 {
+  margin-top: 0px;
+  width: 90% !important;
+}
+.home .slider-items-group {
+  width: 70%;
+  padding: 0% 10%;
+}
+.home .slider-items {
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+.home .mySwiper1 .slider-items h1 {
+  font-family: "Reem Kufi Ink", sans-serif;
+  font-size: 38px;
+  width: 100%;
+}
+.home .img2 {
+  width: 220px;
+  height: 160px;
+  margin-left: 5%;
+}
+.slider-items-text {
+  text-align: start;
+}
+.home .mySwiper1 .slider-items-group button {
+  position: absolute;
+  left: 12.8%;
+  bottom: 3%;
+}
+
+/*****to hide p*****/
+.slider-items-text p {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style: normal;
+  line-height: 28px;
+}
+
+.home .slider-items-text .p-price {
+  margin-top: -10px;
+  font-size: 23px;
+}
+@media (max-width: 1027px) {
+  .home .img2 {
+    width: 220px;
+    height: 160px;
+    margin-left: 0%;
+  }
+  .home .mySwiper1 .slider-items-group button {
+    left: 14%;
+    bottom: 3%;
+  }
+}
+@media (max-width: 991px) {
+  .home .mySwiper1 .slider-items-group button {
+    font-size: 18px;
+    left: 14%;
+    bottom: 3%;
+  }
+}
+@media (max-width: 928px) {
+  .home .img2 {
+    width: 180px;
+    height: 120px;
+    margin-left: 0%;
+  }
+  .home .mySwiper1 .slider-items h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .home .mySwiper1 .slider-items-group button {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .home .img2 {
+    width: 220px;
+    height: 160px;
+    margin-left: 0%;
+  }
+
+  .home .mySwiper1 {
+    height: 370px;
+    margin-top: -70px;
+  }
+  .home .mySwiper1 .slider-items-group button {
+    left: 15%;
+    bottom: 3%;
+  }
+}
+@media (max-width: 450px) {
+  .home .mySwiper1 .slider-items-group button {
+    position: absolute;
+    left: 18%;
+    bottom: 0%;
+  }
+  .home .mySwiper1 .slider-items h1 {
+    font-size: 27px;
+  }
+}
